@@ -1,2 +1,3 @@
 def add(a, b):
-    return a + b + 10
+    print(f"Addition de {a} + {b}")
+    return a + b
