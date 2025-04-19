@@ -1,4 +1,5 @@
 import logging
+
 from monsterlib import add, subtract
 
 # Config du logger
