@@ -22,7 +22,7 @@ jobs:
     - name: ⚙️ Installer uv et les dépendances
       run: |
         curl -LsSf https://astral.sh/uv/install.sh | sh
-        uv pip install pytest
+        uv pip install --system pytest
 
     - name: ✅ Lancer les tests
       run: |
