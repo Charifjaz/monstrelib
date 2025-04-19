@@ -26,12 +26,12 @@ jobs:
 
     - name: 🔎 Lint avec flake8
       run: |
-        flake8 monstrelib/
+        flake8 monsterlib/
 
     - name: 🧼 Vérifier format avec black
       run: |
-        black --check monstrelib/
+        black --check monsterlib/
 
     - name: 📦 Vérifier tri des imports avec isort
       run: |
-        isort monstrelib/ --check-only
+        isort monsterlib/ --check-only
