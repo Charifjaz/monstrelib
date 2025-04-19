@@ -30,4 +30,4 @@ jobs:
 
     - name: ✅ Lancer les tests
       run: |
-        python -m pytest --cov=monstrelib --cov-report=term-missing --cov-report=xml
+        python -m pytest --cov=monsterlib --cov-report=term-missing --cov-report=xml
