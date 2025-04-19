@@ -26,4 +26,4 @@ jobs:
 
     - name: ✅ Lancer les tests
       run: |
-        python -m pytest
+        python -m pytest -s -v --tb=short
