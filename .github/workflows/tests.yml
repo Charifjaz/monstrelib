@@ -32,3 +32,11 @@ jobs:
       working-directory: .
       run: |
         python -m pytest --cov=monsterlib --cov-report=term-missing --cov-report=xml
+
+    - name: 📤 Upload coverage to Codecov
+      uses: codecov/codecov-action@v4
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}  # facultatif pour les dépôts publics
+        files: coverage.xml
+        flags: unittests
+        name: codecov-monstrelib
