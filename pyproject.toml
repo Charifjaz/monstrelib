@@ -1,6 +1,6 @@
 [project]
 name = "monstrelib"
-version = "0.1.0"
+version = "0.1.1"
 description = "Une mini bibliothèque qui fait des additions comme un monstre"
 authors = [
     { name="Mohamed Echcharif EL JAZOULI", email="charif.eljazouli@email.com" }
